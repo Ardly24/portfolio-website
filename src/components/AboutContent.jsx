@@ -17,7 +17,7 @@ export default function AboutContent(){
             <Link to="/contact">
             <button className="btn">Contact</button>
             </Link>
-            <Link to="https://drive.google.com/file/d/1bUBirUdx3Tye5TtzD4rDyGOGZJXFLvHK/view?usp=share_link">
+            <Link to="https://drive.google.com/file/d/1V6lScedwU59SKCLFkX9pYwAsZVdu7_k0/view?usp=share_link">
             <button className="btn btn-light"> download resume</button>
             </Link>
         

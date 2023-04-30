@@ -18,7 +18,7 @@ export default function HeroImg(){
              <div className="buttons">
               <Link to="/project"
                className="btn">Projects</Link>  
-               <Link to="https://drive.google.com/file/d/1bUBirUdx3Tye5TtzD4rDyGOGZJXFLvHK/view?usp=share_link"
+               <Link to="https://drive.google.com/file/d/1V6lScedwU59SKCLFkX9pYwAsZVdu7_k0/view?usp=share_link"
                className="btn btn-light">download resume</Link>  
             </div>
             <div className="socialmedia-icons">
