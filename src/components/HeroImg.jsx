@@ -16,7 +16,7 @@ export default function HeroImg(){
              <p>Hi, I'm Ardlight</p>
              <h1>Frontend Developer</h1>
              <div className="buttons">
-              <Link to="/project"
+              <Link to="/portfolio-website/project"
                className="btn">Projects</Link>  
                <Link to="https://drive.google.com/file/d/1V6lScedwU59SKCLFkX9pYwAsZVdu7_k0/view?usp=share_link"
                className="btn btn-light">download resume</Link>  
