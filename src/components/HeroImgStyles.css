@@ -51,7 +51,6 @@
     margin-top: 40px;
     padding: 15px;
     font-size: 25px;   
-
 }
 
 .socialmedia-icons a{
@@ -76,7 +75,7 @@
 }
 
 .content .buttons{
-    width: 600px;
+    width: 37.5rem;
 }
 @media screen and (max-width: 640px){
     .hero .content h1{
@@ -86,9 +85,13 @@
     .hero .content p{
         font-size: 1.4rem;
     }
-
+    
+    .content .buttons{
+        width: 22rem;
+    }
     .content .btn{
         padding: 12px;
+
     }
 }
 
