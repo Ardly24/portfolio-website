@@ -4,10 +4,11 @@
 }
 .contact-heading{
     text-align: center;
-    padding: 1rem;
+    padding: 0.2rem;
     font-size: 30px ;
     font-weight: 600;
     font-family: cursive;
+    margin-bottom: 10px;
 }
 
 label{
@@ -63,7 +64,19 @@ form input, form textarea{
 
   @media screen and (max-width: 800px){
    form{
-           width: 400px;
+           width: 80%;       
+    }
+
+    .form{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .socialmedia-iconss{
+        flex-direction: row;
+        width: 80%; 
+        margin: 0px 30px 10px ;
     }
 
 }

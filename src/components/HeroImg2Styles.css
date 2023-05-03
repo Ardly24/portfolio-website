@@ -40,5 +40,8 @@
     .hero-img{
         font-size:2rem;
     }
+    .hero-img p{
+        font-size: 1.2rem;
+    }
     
 }

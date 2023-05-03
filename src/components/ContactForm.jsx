@@ -26,8 +26,9 @@ export default function ContactForm(){
     };
 
     return(
+        <>
+          <h1 className="contact-heading">GET IN TOUCH</h1>
         <div className="form">
-            
             <div className="socialmedia-iconss">
            <a href="https://github.com/Ardly24"><BsGithub className='icon'/><p className="socilamedia">GitHub</p></a> 
             <a href="https://twitter.com/ardly_g4"><BsTwitter className='icon'/><p className="socilamedia">Twitter</p></a> 
@@ -36,7 +37,6 @@ export default function ContactForm(){
             <a href ="mailto: ardlightg@gmail.com"><AiOutlineMail className='icon'/><p className="socilamedia">Email</p></a> 
             </div>
             <div>
-            <h1 className="contact-heading">GET IN TOUCH</h1>
             <form ref={form} onSubmit={sendEmail} >
                 <label>Your Name</label>
                 <input type="text" name="user_name" />
@@ -50,6 +50,7 @@ export default function ContactForm(){
             </form> 
             </div>
          </div>
+         </>
     )
 }
 

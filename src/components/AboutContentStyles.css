@@ -13,9 +13,9 @@
     font-weight: 400;
 }
 
+
 .about .left{
     text-align: center;
-    padding: 1rem;
     width:25%;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .education ul{
-        list-style-type:disc;                  
+    list-style-type:disc;                  
 }
 
 
@@ -61,6 +61,7 @@
 @media screen and (max-width: 900px){
     .about .left{
         width: 90%;
+        margin: 1rem;
     } 
 
     .skills-container{
@@ -74,6 +75,13 @@
     }
 
     .education{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .education li::marker{
+        font-size: 1rem;
+    }
+
+    .about .btn{
+        font-size: 0.8rem;
     }
 }
